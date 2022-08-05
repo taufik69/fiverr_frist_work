@@ -1,0 +1,26 @@
+
+/*================================================
+        With Auction part css start
+===================================================*/
+
+#auction_house{
+    padding: 50px 0;
+    .auction_house_content{
+        .withaucthh{
+            margin: 0;
+        }
+        .withauction{
+            @include fs(20px,700, #4a5568);
+            font-family: $ff;
+        }
+    }
+    .withacutintest{
+        .withusd{
+            margin-bottom: 30px;
+        }
+    }
+}
+
+/*================================================
+        With auction part css End
+===================================================*/

@@ -1,0 +1,91 @@
+/*==============================================
+        Auction twiter part start
+=================================================*/ 
+
+.fulltwiterbody{
+    background: #E1E1E1;
+    padding: 20px 0;
+        .fullbox{
+            margin-top: 50px;
+            overflow: scroll;
+            width: 59%;
+            height: 1000px;
+            margin-left: 24%;
+            .navbar{
+                background: rgb(250, 250, 250);
+                width: 100%;
+                
+                a{
+                    @include fs(32px,300,#292F33);
+                    font-family: $ff;
+                    margin-left: 15px;
+                    .at-the-rate{
+                        @include fs(13px,400,#0a2a3f);
+                        font-family: $ff;
+                       
+                    }
+                }
+            }
+            .main{
+                padding: 20px 30px;
+                box-sizing: border-box;
+                .name{
+                    border: 5px solid #E1E1E1;
+                    h6{
+                        @include fs(16px,400,#ffffff);
+                        font-family: $ff;
+                        margin-left: 0px;
+                        margin-top: 12px;
+                        .undersocre{
+                        @include fs(13px,400,#fbfbfb);
+                        font-family: $ff;
+                        }
+                    }
+                    .description{
+                        @include fs(20px,700,#fffbfb);
+                        font-family: $ff;
+        
+                        .twtiter{
+                           color: #2b7bb9;
+                        }
+                    }
+
+                    .imgaetwit{
+                        margin-top: 20px;
+                        .twittext{
+                            @include fs(13px,400,#f6f6f6);
+                            font-family: $ff;
+                            border: 1px solid #fffbfb;
+                            // margin-top: 8    px;
+                            padding: 7px;
+                        }
+                    }
+                }
+                .heartsign{
+                    margin-top: 10px;
+                    i.fa-heart{
+                        color: #e9e9e9;
+                    }
+                    i.fa-arrow-up-from-bracket{
+                        color: #acb8b8;
+                        margin-left:4%;
+                        transform: rotate(90deg);
+                        
+                    }
+                    p{
+                        
+                        margin-left: 90%;
+                        @include fs(15px,400,#000000);
+                        font-family: $ff;
+                    }
+                }
+            }
+        }
+        
+    
+
+}
+
+/*==============================================
+        Auction twiter part End
+=================================================*/ 

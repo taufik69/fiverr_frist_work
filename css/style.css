@@ -1,0 +1,837 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*=======================================================
+            common css start
+==========================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1, h2, h3, h4, h5, h5, p, ul, li, ol {
+  margin: 0;
+  padding: 0;
+}
+
+/*=======================================================
+            common css end
+==========================================================*/
+/*================================================
+        Header part css start
+===================================================*/
+.custom_navbar {
+  background: #d3d2d2;
+  padding: 15px 0 !important;
+}
+
+.custom_navbar .custom_item ul li {
+  margin-left: 45px;
+}
+
+.custom_navbar .custom_item ul li a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+}
+
+.custom_navbar .custom_item ul li a:hover {
+  color: #4200ff;
+}
+
+.custom_navbar .custom_item ul .lognin {
+  margin-left: 100px;
+}
+
+.custom_navbar .custom_item .signin a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffff;
+  background: #122DA1;
+  border-radius: 12px;
+}
+
+.custom_navbar .custom_item .signin a:hover {
+  color: #fff;
+}
+
+/*================================================
+        Header part css end
+===================================================*/
+/*================================================
+        Banner part css end
+===================================================*/
+#banner_part {
+  padding: 150px 0;
+  position: relative;
+  z-index: 22;
+}
+
+#banner_part .oerlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #020202ad;
+  z-index: -1;
+}
+
+#banner_part .banner_text {
+  text-align: center;
+}
+
+#banner_part .banner_text .headtag {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+#banner_part .banner_text p {
+  font-size: 23px;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  line-height: 32px;
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+
+#banner_part .banner_text .bid_btn {
+  padding: 11px 20px;
+  background: #BA184F;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 20px;
+}
+
+#banner_part .banner_text .bid_btn:hover {
+  background: #ba184e98;
+}
+
+/*================================================
+        Banner part css end
+===================================================*/
+/*================================================
+        Discover part css start
+===================================================*/
+#dicover_part {
+  padding: 50px 0;
+  background: #000;
+}
+
+#dicover_part .discover_left .head_discover {
+  font-size: 14px;
+  font-weight: 700;
+  color: #e91e63;
+  font-family: "Inter", sans-serif;
+}
+
+#dicover_part .discover_left .left_title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffff;
+  font-family: "Inter", sans-serif;
+  line-height: 43px;
+}
+
+#dicover_part .discover_left .left_text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffff;
+  font-family: "Inter", sans-serif;
+  line-height: 24px;
+  margin-top: 15px;
+  margin-right: 281px;
+  margin-bottom: 30px;
+}
+
+#dicover_part .discover_left a {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffff;
+  font-family: "Inter", sans-serif;
+  background: #122DA1;
+  border-radius: 6px;
+}
+
+/*================================================
+        Discover part css end
+===================================================*/
+/*================================================
+        Auction part css start
+===================================================*/
+#auction_part {
+  background: #ffff;
+  padding: 50px 0 0 0;
+}
+
+#auction_part .auction_left {
+  margin-top: 80px;
+  margin-left: 25px;
+}
+
+#auction_part .auction_left .left_title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #080808;
+  font-family: "Inter", sans-serif;
+  line-height: 43px;
+}
+
+#auction_part .auction_left .left_text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  line-height: 24px;
+  margin-top: 15px;
+  margin-right: 281px;
+  margin-bottom: 30px;
+}
+
+#auction_part .auction_left .left_text span {
+  text-decoration: underline;
+}
+
+#auction_part .auction_left .left_text span:hover {
+  color: green;
+  text-decoration: none;
+}
+
+#auction_part .auction_left a {
+  padding: 8px 15px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffff;
+  font-family: "Inter", sans-serif;
+  background: #122DA1;
+  border-radius: 6px;
+}
+
+#auction_part .auction_right img {
+  max-width: 66%;
+}
+
+#auction_part .rowbanner {
+  margin-top: 50px;
+  padding: 25px 0;
+  background: #C2C2C2;
+}
+
+/*================================================
+        Auction part css End
+===================================================*/
+/*================================================
+        Telegram part css Start
+===================================================*/
+#telegram_part {
+  padding: 20px 0 0 25px;
+  background: #000000;
+}
+
+#telegram_part .telegram_part {
+  text-align: center;
+}
+
+#telegram_part .telegram_part .title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 30px;
+}
+
+#telegram_part .telegram_part .join_bth {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  padding: 8px 65px;
+  background: #122DA1;
+  border-radius: 4px;
+}
+
+#telegram_part .telegram_part .acess {
+  margin-top: 30px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #e91e63;
+  font-family: "Inter", sans-serif;
+}
+
+#telegram_part .telegram_part .handsign {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffff;
+  font-family: "Inter", sans-serif;
+  margin: 20px 0 40px 0;
+}
+
+#telegram_part .telegram_part .handsign i.fa-hand-point-down {
+  color: #FFC83D;
+  margin: 0 5px;
+  font-size: 20px;
+}
+
+/*================================================
+        Telegram part css End
+===================================================*/
+/*================================================
+       Auction  house part css start
+===================================================*/
+#auction_house {
+  padding: 76px 0;
+  background: #1E1E28;
+}
+
+#auction_house .auction_house_content {
+  text-align: center;
+}
+
+#auction_house .auction_house_content .head {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+#auction_house .auction_house_content .headbelow {
+  font-size: 17px;
+  font-weight: 400;
+  color: #fafafa;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 5px;
+}
+
+#auction_house .auction_house_content .session {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 5px;
+}
+
+#auction_house .auction_house_content .delitem .first,
+#auction_house .auction_house_content .delitem .second,
+#auction_house .auction_house_content .delitem .third {
+  font-size: 16px;
+  font-weight: 400;
+  color: #faf8f8;
+  font-family: "Inter", sans-serif;
+  line-height: 24px;
+}
+
+#auction_house .searc {
+  margin-top: 40px;
+}
+
+#auction_house .searc .dropdown .fistdd {
+  margin-left: 10px;
+  text-align: end;
+}
+
+#auction_house .searc .dropdown .fistdd #mySelect {
+  padding: 7px 30px;
+  border-radius: 5px;
+}
+
+#auction_house .searc .dropdown .fistdd #mySelect:hover {
+  border: 2px solid #531616;
+}
+
+#auction_house .full_box {
+  margin-top: 60px;
+  border: 1px solid #eee;
+  box-shadow: 2px 5px 7px 1px rgba(0, 0, 0, 0.48);
+  -webkit-box-shadow: 2px 5px 7px 1px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: 2px 5px 7px 1px rgba(0, 0, 0, 0.48);
+  /*============= slider text ============*/
+}
+
+#auction_house .full_box .slick_slider .imgandcard {
+  height: 400px;
+}
+
+#auction_house .full_box .slick_slider .imgandcard img {
+  height: 400px;
+  width: 100%;
+}
+
+#auction_house .full_box .slick_slider .pre_arrow,
+#auction_house .full_box .slick_slider .next_arrow {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #000000;
+  text-align: center;
+  z-index: 9999;
+  position: absolute;
+  top: 45%;
+  border: 1px solid #ffffff;
+  font-size: 15px;
+}
+
+#auction_house .full_box .slick_slider .pre_arrow {
+  border-radius: 50%;
+  left: 10px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s;
+}
+
+#auction_house .full_box .slick_slider .next_arrow {
+  border-radius: 50%;
+  right: 10px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s;
+}
+
+#auction_house .full_box .slick_slider:hover .pre_arrow,
+#auction_house .full_box .slick_slider:hover .next_arrow {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#auction_house .full_box .slider_text {
+  padding: 30px 20px;
+}
+
+#auction_house .full_box .slider_text .frist_text {
+  font-size: 16px;
+  font-weight: 700;
+  color: #f8f6f6;
+  font-family: "Inter", sans-serif;
+  word-break: none;
+}
+
+#auction_house .full_box .slider_text .lot {
+  font-size: 14px;
+  font-weight: 400;
+  color: #f8f6f6;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 5px;
+}
+
+#auction_house .full_box .slider_text .sesson {
+  font-size: 14px;
+  font-weight: 700;
+  color: #f8f7f7;
+  font-family: "Inter", sans-serif;
+  margin-top: 35px;
+}
+
+#auction_house .full_box .slider_text .sessiondate {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fdfbfb;
+  font-family: "Inter", sans-serif;
+}
+
+#auction_house .full_box .slider_text .bidding_title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #f0f0f0;
+  font-family: "Inter", sans-serif;
+  margin-top: 30px;
+}
+
+#auction_house .full_box .slider_text .usd {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fbf9f9;
+  font-family: "Inter", sans-serif;
+}
+
+#auction_house .full_box .slider_text .reserve {
+  font-size: 14px;
+  font-weight: 700;
+  color: #e9e9e9;
+  font-family: "Inter", sans-serif;
+  margin-top: 30px;
+}
+
+#auction_house .full_box .slider_text .no_reserve {
+  font-size: 14px;
+  font-weight: 400;
+  color: #f1f1f1;
+  font-family: "Inter", sans-serif;
+}
+
+#auction_house .view_btn {
+  width: 98px;
+  height: 31px;
+  line-height: 27px;
+  border: 1px solid #fbfafa;
+  text-align: center;
+  margin-left: 630px;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+
+#auction_house .view_btn:hover {
+  background: #bcbbbd;
+}
+
+#auction_house .view_btn a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #faf8f8;
+  font-family: "Inter", sans-serif;
+}
+
+/*================================================
+        Auction house part css End
+===================================================*/
+/*================================================
+        With Auction part css start
+===================================================*/
+#auction_house {
+  padding: 50px 0;
+}
+
+#auction_house .auction_house_content .withaucthh {
+  margin: 0;
+}
+
+#auction_house .auction_house_content .withauction {
+  font-size: 20px;
+  font-weight: 700;
+  color: #4a5568;
+  font-family: "Inter", sans-serif;
+}
+
+#auction_house .withacutintest .withusd {
+  margin-bottom: 30px;
+}
+
+/*================================================
+        With auction part css End
+===================================================*/
+/*==============================================
+        Auction twiter part start
+=================================================*/
+.fulltwiterbody {
+  background: #E1E1E1;
+  padding: 20px 0;
+}
+
+.fulltwiterbody .fullbox {
+  margin-top: 50px;
+  overflow: scroll;
+  width: 59%;
+  height: 1000px;
+  margin-left: 24%;
+}
+
+.fulltwiterbody .fullbox .navbar {
+  background: #fafafa;
+  width: 100%;
+}
+
+.fulltwiterbody .fullbox .navbar a {
+  font-size: 32px;
+  font-weight: 300;
+  color: #292F33;
+  font-family: "Inter", sans-serif;
+  margin-left: 15px;
+}
+
+.fulltwiterbody .fullbox .navbar a .at-the-rate {
+  font-size: 13px;
+  font-weight: 400;
+  color: #0a2a3f;
+  font-family: "Inter", sans-serif;
+}
+
+.fulltwiterbody .fullbox .main {
+  padding: 20px 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.fulltwiterbody .fullbox .main .name {
+  border: 5px solid #E1E1E1;
+}
+
+.fulltwiterbody .fullbox .main .name h6 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  margin-left: 0px;
+  margin-top: 12px;
+}
+
+.fulltwiterbody .fullbox .main .name h6 .undersocre {
+  font-size: 13px;
+  font-weight: 400;
+  color: #fbfbfb;
+  font-family: "Inter", sans-serif;
+}
+
+.fulltwiterbody .fullbox .main .name .description {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fffbfb;
+  font-family: "Inter", sans-serif;
+}
+
+.fulltwiterbody .fullbox .main .name .description .twtiter {
+  color: #2b7bb9;
+}
+
+.fulltwiterbody .fullbox .main .name .imgaetwit {
+  margin-top: 20px;
+}
+
+.fulltwiterbody .fullbox .main .name .imgaetwit .twittext {
+  font-size: 13px;
+  font-weight: 400;
+  color: #f6f6f6;
+  font-family: "Inter", sans-serif;
+  border: 1px solid #fffbfb;
+  padding: 7px;
+}
+
+.fulltwiterbody .fullbox .main .heartsign {
+  margin-top: 10px;
+}
+
+.fulltwiterbody .fullbox .main .heartsign i.fa-heart {
+  color: #e9e9e9;
+}
+
+.fulltwiterbody .fullbox .main .heartsign i.fa-arrow-up-from-bracket {
+  color: #acb8b8;
+  margin-left: 4%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.fulltwiterbody .fullbox .main .heartsign p {
+  margin-left: 90%;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+}
+
+/*==============================================
+        Auction twiter part End
+=================================================*/
+/*==================================================
+            Auction card part start
+====================================================*/
+#auction_house .card {
+  margin-top: 25px;
+  border-radius: 9px;
+}
+
+#auction_house .card img {
+  border-radius: 3px;
+  height: 300px;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+#auction_house .card .cardimg img {
+  width: 60px;
+  height: 60px;
+}
+
+#auction_house .card .cardname {
+  margin-left: 10px;
+}
+
+#auction_house .card .cardname h6 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  font-family: "Inter", sans-serif;
+}
+
+#auction_house .card .cardname h6 .loting {
+  font-size: 13px;
+  font-weight: 400;
+  color: #412f2f;
+  font-family: "Inter", sans-serif;
+  margin-top: 3px;
+}
+
+#auction_house .card .card-below-text {
+  margin-top: 30px;
+}
+
+#auction_house .card .card-below-text .ss,
+#auction_house .card .card-below-text .bc {
+  font-size: 15px;
+  font-weight: 700;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 2px;
+}
+
+#auction_house .card .card-below-text .sd,
+#auction_house .card .card-below-text .dd {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 30px;
+}
+
+/*==================================================
+            Auction card part end
+====================================================*/
+/*=========================================================
+        last auction part start
+==========================================================*/
+.lastauction {
+  padding: 50px 0;
+  background: #424141;
+}
+
+.lastauction #auction_house .auction_house_content .lasthead {
+  color: #ffff;
+}
+
+.lastauction #auction_house .auction_house_content .lasthb {
+  color: #fff;
+}
+
+.lastauction #auction_house .delitem .ss {
+  color: #fff;
+}
+
+.lastauction #auction_house .full_box .last-taxt .frist_text,
+.lastauction #auction_house .full_box .last-taxt .last-lot,
+.lastauction #auction_house .full_box .last-taxt .last-sees {
+  color: #f5f5f5;
+}
+
+.lastauction #auction_house .full_box .last-taxt .last-btn {
+  padding: 2px 30px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  background: #a0aeeeed;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.lastauction #auction_house .lstpart-btn {
+  border: 1px solid #fff;
+  background: #b6b2b2;
+}
+
+/*=========================================================
+        last auction part End
+==========================================================*/
+/*================================================
+        subscribe part css start
+===================================================*/
+#subscribe {
+  padding: 80px 0 40px 0;
+  background: #000;
+}
+
+#subscribe .socila .subs-head {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 20px;
+}
+
+#subscribe .socila ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+#subscribe .subscribee-btn {
+  margin-top: 40px;
+}
+
+#subscribe .subscribee-btn .xx {
+  border-radius: 9px;
+  padding: 10px 50px;
+  background: #1638c9;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+/*================================================
+        subscribe part css end
+===================================================*/
+/*================================================
+        footer part css end
+===================================================*/
+#footer {
+  padding: 60px 0;
+}
+
+#footer .social-icon {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-top: 10px;
+}
+
+#footer .social-icon i.fa-facebook-f,
+#footer .social-icon .fa-twitter {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #000;
+  color: #ffff;
+  background: #000;
+  border-radius: 50%;
+  margin-left: 10px;
+  transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  cursor: pointer;
+}
+
+#footer .social-icon:hover i.fa-facebook-f {
+  background: #1729ca;
+  border-color: #1729ca;
+}
+
+/*================================================
+        footer part css end
+===================================================*/
+/*# sourceMappingURL=style.css.map */

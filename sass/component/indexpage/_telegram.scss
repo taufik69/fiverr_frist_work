@@ -1,0 +1,58 @@
+/*================================================
+        Telegram part css Start
+===================================================*/
+#telegram_part{
+    padding: 20px 0 0 25px;
+    background: #000000;
+    .telegram_part{
+        text-align: center;
+        .title{
+            @include fs(16px,700,#fff);
+            font-family: $ff;
+            margin-bottom: 30px;
+        }
+        .join_bth{
+           
+            @include fs(14px,400,#fff);
+            font-family: $ff;
+            padding: 8px 65px;
+            background: #122DA1;
+            border-radius: 4px;
+        }
+        .acess{
+            margin-top: 30px;
+            @include fs(12px,700,#e91e63);
+            font-family: $ff;
+        }
+        .handsign{
+            i.fa-hand-point-down{
+                color: #FFC83D;
+                margin: 0 5px;
+                font-size: 20px
+            }
+            @include fs(24px,700,#ffff);
+            font-family: $ff;
+            margin: 20px 0 40px 0;
+
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*================================================
+        Telegram part css End
+===================================================*/

@@ -1,0 +1,41 @@
+/*================================================
+        Header part css start
+===================================================*/
+.custom_navbar{
+ background: #d3d2d2;
+ padding:  15px 0 !important;
+.custom_item{
+    ul{
+        li{
+            margin-left: 45px;
+            a{
+                @include fs(14px,600,#000000);
+                font-family: $ff;
+                &:hover{
+                    color:#4200ff;
+                }
+            }
+        }
+        .lognin{
+
+            margin-left: 100px;
+        }
+    }
+    .signin
+        {
+            a{
+                @include fs(13px,600,#ffff);
+                background: #122DA1;
+                border-radius: 12px;
+                &:hover{
+                    color: #fff;
+                }
+               
+            }
+                  
+        }
+    }
+}
+/*================================================
+        Header part css end
+===================================================*/

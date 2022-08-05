@@ -1,0 +1,51 @@
+/*=========================================================
+        last auction part start
+==========================================================*/ 
+
+.lastauction{
+    padding: 50px 0;
+    background: #424141;
+    #auction_house{
+        .auction_house_content{
+            .lasthead{
+                color: #ffff;
+            }
+            .lasthb{
+                color: #fff;
+            }
+        }
+        .delitem{
+            .ss{
+                color: #fff;
+            }
+        }
+        .full_box{
+            .last-taxt{
+                .frist_text,
+                .last-lot,
+                .last-sees{
+                    color: #f5f5f5;
+
+                }
+                .last-btn{
+                    padding: 2px 30px;
+                    @include fs(13px,400,#000000);
+                    font-family: $ff;
+                    text-align: center;
+                    background:#a0aeeeed;
+                    border-radius: 5px;
+                    margin-top: 15px;
+                }
+            }
+
+        }
+        .lstpart-btn{
+            border: 1px solid #fff;
+            background: #b6b2b2;
+        }
+    }
+}
+
+/*=========================================================
+        last auction part End
+==========================================================*/ 

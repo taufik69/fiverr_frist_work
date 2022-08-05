@@ -1,0 +1,13 @@
+@mixin fs( $fs,$fw,$color ) {
+    
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color;
+}
+@mixin ts($s) {
+    transition: all linear $s;
+    -moz-transition: all linear $s;
+    -webkit-transition: all linear $s;
+    -ms-transition: all linear $s;
+    -o-transition: all linear $s;
+}

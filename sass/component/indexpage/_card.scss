@@ -1,0 +1,55 @@
+/*==================================================
+            Auction card part start
+====================================================*/
+#auction_house{
+    .card{
+        margin-top: 25px;
+        border-radius: 9px;
+        img{
+            border-radius: 3px;
+            height: 300px;
+            width: 100%;
+            max-width: 100%;
+            margin-bottom: 10px;
+        }
+        .cardimg{
+            img{
+                width: 60px;
+                height: 60px;
+            }
+        }
+        .cardname{
+            margin-left: 10px;
+            h6{
+                @include fs(16px ,600,#000);
+                font-family: $ff;
+                .loting{
+                @include fs(13px ,400,#412f2f);
+                font-family: $ff;
+                margin-top: 3px;
+                }
+            }
+        }
+        .card-below-text{
+            margin-top: 30px;
+            .ss,
+            .bc{
+                @include fs(15px,700,#000000);
+                font-family: $ff;
+                margin-bottom:2px;
+            }
+            .sd,
+            .dd{
+                @include fs(14px,400,#000000);
+                font-family: $ff;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+
+
+/*==================================================
+            Auction card part end
+====================================================*/

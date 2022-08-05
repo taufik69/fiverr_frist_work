@@ -1,0 +1,57 @@
+
+/*================================================
+        Auction part css start
+===================================================*/
+#auction_part{
+    background: #ffff;
+    padding: 50px 0 0 0;
+    .auction_left
+    {
+        margin-top: 80px;
+        margin-left: 25px;
+        .left_title{
+            @include fs(36px,700,#080808);
+            font-family: $ff;
+            line-height: 43px;
+        }
+        .left_text{
+            @include fs(16px,500,#000000);
+            font-family: $ff;
+            line-height: 24px;
+            margin-top: 15px;
+            margin-right: 281px;
+            margin-bottom: 30px;
+            span{
+                text-decoration: underline;
+                &:hover{
+                    color: green;
+                    text-decoration: none;
+                }
+            }
+        }
+    
+        a{
+            padding: 8px 15px;            
+            @include fs(15px,400,#ffff);
+            font-family: $ff;
+            background: #122DA1;
+            border-radius: 6px;
+        }
+    }
+    .auction_right{
+        img{
+            max-width: 66%;
+        }
+    }
+    .rowbanner{
+        margin-top: 50px;
+        padding: 25px 0;
+        background: #C2C2C2;
+    }
+ 
+}
+
+
+/*================================================
+        Auction part css End
+===================================================*/

@@ -1,0 +1,47 @@
+/*================================================
+        Banner part css end
+===================================================*/
+#banner_part{
+    padding: 150px 0;
+    position: relative;
+    z-index: 22;
+    .oerlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: #020202ad;
+        z-index:-1;
+    }
+    .banner_text{
+      text-align: center;
+        .headtag{
+            @include fs(48px , 700,#fff);
+            font-family: $ff;
+        }
+        p{
+            @include fs(23px , 400,#fff);
+            font-family: $ff;
+            line-height: 32px;
+            margin-top: 10px;
+            margin-bottom: 35px;
+            
+        }
+        .bid_btn{
+            padding: 11px 20px;
+            background: #BA184F;
+            @include fs(16px,600,#fff);
+            border-radius: 20px;
+            &:hover{
+                background: #ba184e98;
+            }
+
+        }
+    }
+}
+
+
+/*================================================
+        Banner part css end
+===================================================*/
